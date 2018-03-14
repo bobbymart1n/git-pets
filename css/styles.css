@@ -1,8 +1,36 @@
-.column {
-  float:left;
-  padding: 10px;
+body {
+  font-family: sans-serif;
+  background-color: lightslategrey;
 }
 
 img {
-  width: 250px;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+}
+
+.column {
+  float:left;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+.column h3 {
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+.column p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
