@@ -4,7 +4,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 h1 {
@@ -13,17 +13,17 @@ h1 {
 }
 
 .container {
-  margin:auto;
+  margin: 0 10px;
   margin-top: 60px;
-  width: 95%;
 }
 
 .column {
   float:left;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 20px;
-  margin: 10px;
-  width: 300px;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   background-color: aliceblue;
 }
 
@@ -35,4 +35,22 @@ h1 {
 .column p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: auto;
+  }
+  .column {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .column {
+    background-color: teal;
+  }
 }
