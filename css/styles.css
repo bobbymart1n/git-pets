@@ -9,10 +9,12 @@ img {
 
 h1 {
   font-family: 'Playfair Display', serif;
+  margin: 0 10px;
 }
 
 .container {
-  margin: auto;
+  margin:auto;
+  margin-top: 60px;
   width: 95%;
 }
 
