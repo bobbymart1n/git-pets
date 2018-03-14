@@ -18,12 +18,13 @@ h1 {
 }
 
 .column {
-  float:left;
+  float: left;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 20px;
   max-width: 100%;
   height: auto;
+  text-align: center;
   background-color: aliceblue;
 }
 
@@ -40,6 +41,7 @@ h1 {
 @media screen and (min-width: 1000px) {
   .container {
     margin: auto;
+    width: 800px;
   }
   .column {
     width: 300px;
